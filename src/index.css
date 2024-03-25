@@ -6,27 +6,24 @@
 }
 
 .input_main{
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.input_card{
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 400px;
-  margin: 120px auto 0 auto;
+  margin: 150px auto 0 auto;
   background: #eeee;
   padding: 40px;
   border-radius: 10px;
   row-gap: 10px;
 }
-
-.input_main .input1{
-
-  width: 300px;
-  padding: 10px 0 10px 10px;
-  border: 2px solid #000;
-  border-radius: 10px;
-}
-
-.input_main .input2{
+.input_main .input_card .input1{
 
   width: 300px;
   padding: 10px 0 10px 10px;
@@ -34,7 +31,7 @@
   border-radius: 10px;
 }
 
-.input_main .input3{
+.input_main .input_card .input2{
 
   width: 300px;
   padding: 10px 0 10px 10px;
@@ -42,7 +39,15 @@
   border-radius: 10px;
 }
 
-.input_main .input4{
+.input_main .input_card .input3{
+
+  width: 300px;
+  padding: 10px 0 10px 10px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.input_main .input_card .input4{
 
   width: 300px;
   padding: 10px 0 10px 10px;
@@ -68,4 +73,31 @@
   display: flex;
   justify-content: flex-start;
   text-transform: capitalize;
+}
+
+.input_result h2{
+
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  font-size: 20px;
+
+}
+
+.input_result h2 p{
+
+  font-size: 18px;
+}
+
+.input_result{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 420px;
+  margin: 120px auto 0 auto;
+  background: #eeee;
+  padding: 40px;
+  border-radius: 10px;
+  row-gap: 10px;
 }
