@@ -4,7 +4,7 @@ import { useState } from "react"
 
 function App() {
   
-  let nameregex = /^[a-zA-Z ]{2,40}$/ ;
+  let nameregex = /^[a-zA-Z ]{4,40}$/ ;
   let emailregex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   let passwordregex =  /^[@#][A-Za-z0-9]{7,13}$/ ;
 
@@ -79,6 +79,7 @@ function App() {
     // else if (!text.pass.match(passwordregex)){
       
     //   setError({pass: "Please Enter Your character , Number , symbol submit "});
+
     // }
     
     else{
